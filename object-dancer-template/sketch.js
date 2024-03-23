@@ -79,14 +79,14 @@ class bruhDancer {
     push();
     translate(20, -10);
     rotate(this.degree);
-    stroke(255);
+    stroke(255, 127, 80);
     strokeWeight(3);
     line(0, 0, 60, 0)
     pop();
     push();
     translate(-20, -10);
     rotate(this.degree);
-    stroke(255);
+    stroke(255, 127, 80);
     strokeWeight(3);
     line(-60, 0, 0, 0)
     pop();
